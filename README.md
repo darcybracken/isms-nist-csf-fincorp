@@ -31,7 +31,8 @@ The result is a complete documentation package, including governance policies, c
 
 The diagram below shows how data flows through FinCorp's four security zones, with NIST CSF 2.0 controls overlaid at every enforcement point.
 
-![FinCorp Data Flow Architecture — NIST CSF 2.0 Control Overlay](99_Attachments/ISMS_Architecture.png)
+FinCorp Data Flow Architecture NIST CSF 2.0 Control Overlay
+<img width="100%" alt="FinCorp Data Flow Architecture — NIST CSF 2.0 Control Overlay" src="https://github.com/user-attachments/assets/cac9bf3e-79b3-4d95-98bc-791d027e6fff" />
 
 ---
 
