@@ -1,6 +1,6 @@
 ---
 "title:": RACI Matrix - Information Security
-author: D'Arcy
+author: Darcy
 Start_Date: 2026-03-07
 version: "1.0"
 status: active
