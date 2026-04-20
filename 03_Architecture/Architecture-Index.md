@@ -18,18 +18,11 @@ This is what "Security by Design" looks like in practice: you don't add controls
 
 ## Data Flow Diagram
 
-> Diagram complete. Exported PNG saved to: `99_Attachments/ISMS_Architecture.png`
+> Diagram complete. <img width="100%" alt="FinCorp Data Flow Architecture — NIST CSF 2.0 Control Overlay" src="https://github.com/user-attachments/assets/cac9bf3e-79b3-4d95-98bc-791d027e6fff" />
 
 ### What the DFD Should Show
 
 The diagram illustrates data moving through four zones, with NIST controls overlaid at each boundary and processing point.
-
-### DFD Zones and Data Flow
-
-```
-<img width="5025" height="2522" alt="Lucidchart DFD Build Guide" src="https://github.com/user-attachments/assets/33d55e6d-93f3-493e-9df0-1d5e20170e2a" />
-
-```
 
 ---
 
