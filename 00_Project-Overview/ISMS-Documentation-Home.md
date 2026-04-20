@@ -5,7 +5,7 @@
 ---
 ## What This Is
 
-This Obsidian vault is a **centralized knowledge base** that contains every artifact needed to design, document, and demonstrate an Information Security Management System (ISMS) for a mock organization. It was built from scratch to answer one question: *What does it actually take to protect organizational data in a structured, auditable way?*
+This was put together in an Obsidian vault, a **centralized knowledge base** that contains all the artifacts needed to design, document, and demonstrate an Information Security Management System (ISMS) for a mock organization. It was built from scratch to answer one question: *What does it actually take to protect organizational data in a structured, auditable way?*
 
 The regulatory framework used is **NIST Cybersecurity Framework 2.0** (February 2024).
 
@@ -21,7 +21,6 @@ The regulatory framework used is **NIST Cybersecurity Framework 2.0** (February 
 | 04 - Incident Response      | IRP, ransomware playbook, response stages    | 04_Incident-Response/IR-Index                  |
 | 05 - Remediation & Findings | Gap analysis, outcome summary                | Findings-Summary                               |
 | 06 - Templates              | Reusable templates for policies and tracking | Template-Index                                 |
-| 99 - Attachments            | Exported diagrams, screenshots, evidence     | `99_Attachments/Lab-002/`                          |
 
 ---
 ## Tagging System
@@ -45,7 +44,7 @@ This vault uses a consistent tagging taxonomy so any artifact can be retrieved i
 
 | **Field**            | **Value**                                                |
 | -------------------- | -------------------------------------------------------- |
-| **Author**           | D'Arcy                                                   |
+| **Author**           | Darcy                                                   |
 | **Date Started**     | 2026-03-07                                               |
 | **Framework**        | NIST Cybersecurity Framework (CSF) 2.0                   |
 | **Tools**            | Obsidian MD, Lucidchart, Python (for automation scripts) |
@@ -62,5 +61,3 @@ This vault uses a consistent tagging taxonomy so any artifact can be retrieved i
 **Phase 3 (Mapping):** View the `02_Framework-Mapping` folder. This contains the **Master Crosswalk**, which maps your internal policies to **NIST CSF 2.0, SOC 2, and ISO 27001**.
 
 **Phase 4 (Remediation):** Check `05_Remediation-Findings` for the gap analysis. This is where you document what you've built and what still needs work.
-
-**Visual Audit:** Open the **Obsidian Graph View**. Look for clusters around the `#compliance/nist` tags to see how your policies interconnect.
