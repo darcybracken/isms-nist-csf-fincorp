@@ -16,9 +16,9 @@ This section contains the governance foundation of the ISMS - the policies, role
 
 #### Governance answers three questions:
 
-1. **Who is accountable?** → [[Labs/Lab-003-ISMS/01_Governance/Roles/RACI-Matrix]]
+1. **Who is accountable?** → Labs/Lab-003-ISMS/01_Governance/Roles/RACI-Matrix
 
-2. **What are the rules?** → [[Acceptable-Use-Policy]]
+2. **What are the rules?** → Acceptable-Use-Policy
 
 3. **How much risk is acceptable?** → Risk appetite statement (below)
 ---
