@@ -10,7 +10,7 @@ tags:
 ---
 ## Purpose
 
-This crosswalk maps Meridian Financial Services' internal policies and controls to specific NIST CSF 2.0 categories and subcategories. It serves as the single reference an auditor would use to verify that the organization's security posture has no gaps against the framework.
+This crosswalk maps FinCorp internal policies and controls to specific NIST CSF 2.0 categories and subcategories. It serves as the single reference an auditor would use to verify that the organization's security posture has no gaps against the framework.
 
 The crosswalk also demonstrates how NIST CSF maps to other compliance targets (SOC 2, ISO 27001, GLBA) - showing that a well-built ISMS can satisfy multiple regulatory requirements simultaneously.
 
