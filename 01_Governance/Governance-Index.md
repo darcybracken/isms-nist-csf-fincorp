@@ -48,23 +48,8 @@ Meridian Financial Services adopts a **low risk appetite** for information secur
 ---
 ## How Governance Connects to the Rest of the ISMS
 
-```
+<img width="899" height="490" alt="Blank diagram (1)" src="https://github.com/user-attachments/assets/6f4c1f33-8829-4bfb-8955-45d58d95d9e4" />
 
-                         ┌──────────────────┐
-                         │     GOVERN       │
-                         │ Policies, Roles  │
-                         │ Risk Appetite    │
-                         └────────┬─────────┘
-                                  │
-                    ┼─────────────┼─────────────┼
-                    │             │             │
-            ┌─────▼──────┐ ┌──────▼─────┐ ┌──────▼─────────┐
-            │ IDENTIFY   │ │ PROTECT    │ │ DETECT/RESPOND.│
-            │ Assets,    │ │ Controls,  │ │ Monitoring,    │
-            │ Risks      │ │ Encryption │ │ IR Playbooks   │  
-            └────────────┘ └────────────┘ └────────────────┘
-
-```
 
   The Govern function sits above and informs every other function. Without governance, controls exist in isolation - there is no authority to enforce them, no risk context to prioritize them, and no accountability when they fail.
 
