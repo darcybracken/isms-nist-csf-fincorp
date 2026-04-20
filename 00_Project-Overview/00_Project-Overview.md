@@ -77,7 +77,7 @@ Build the three core artifacts of the ISMS:
 
 Produce the formal mapping table that connects each policy/control to its NIST category, priority, compliance target, and implementation detail. This is the artifact an auditor would review.
 
-**Deliverables:** Control table (see [[02_Framework-Mapping/NIST-CSF-Master-Crosswalk]])
+**Deliverables:** Control table (see 02_Framework-Mapping/NIST-CSF-Master-Crosswalk)
 
 ### Phase 4: Remediation & Findings
 
@@ -112,12 +112,3 @@ This project follows a **Plan-Do-Check-Act (PDCA)** cycle, which is the standard
 This vault represents one full pass through the PDCA cycle.
 
 ---
-## Related Notes
-
-- [[ISMS Documentation - Home]]
-
-- [[Governance-Index]]
-
-- [[02_Framework-Mapping/NIST-CSF-Master-Crosswalk]]
-
-- [[NIST-CSF-2.0-Reference]]
