@@ -19,7 +19,7 @@ RACI is a responsibility assignment model that clarifies who does what for each 
 | Letter | Meaning     | Definition                                                 |
 | ------ | ----------- | ---------------------------------------------------------- |
 | **R**  | Responsible | Does the work                                              |
-| **A**  | Accountable | Owns the outcome; makes final decisions (only one per row) |
+| **A**  | Accountable | Owns the outcome makes final decisions (only one per row) |
 | **C**  | Consulted   | Provides input before a decision is made                   |
 | **I**  | Informed    | Notified after a decision or action is taken               |
 
@@ -64,9 +64,3 @@ RACI is a responsibility assignment model that clarifies who does what for each 
 | GV.RR-03 | Resource allocation is implicit - the "R" column shows where work is assigned |
 
 ---
-
-## Related Notes
-
-- [[Governance-Index]]
-- [[Labs/Lab-003-ISMS/01_Governance/Acceptable-use-policy]] - Section 5 (Roles and Responsibilities)
-- [[02_Framework-Mapping/NIST-CSF-Master-Crosswalk]] - GV.RR subcategories
