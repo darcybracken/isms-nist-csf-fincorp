@@ -12,13 +12,11 @@ tags:
 
 This section contains the architectural documentation for FinCorp's IT environment. The primary artifact is a **Data Flow Diagram (DFD)** that visualizes the "data journey" - how data moves from user endpoints through internal systems to cloud storage - and overlays NIST CSF controls at each point where security must be enforced.
 
-This is what "Security by Design" looks like in practice: you don't add controls after the architecture exists. You design the architecture with controls built in.
+This is what "Security by Design" looks like in practice: you don't add controls after the architecture is in place. You design the architecture with controls built in.
 
 ---
 
 ## Data Flow Diagram
-
-> Diagram complete. Exported PNG saved to: `99_Attachments/ISMS_Architecture.png`
 
 ### What the DFD Should Show
 
@@ -26,77 +24,7 @@ The diagram illustrates data moving through four zones, with NIST controls overl
 
 ### DFD Zones and Data Flow
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   ZONE 1: User Endpoints                                        │
-│   ┌──────────┐  ┌──────────┐  ┌──────────┐                      │
-│   │ Laptop   │  │ Mobile   │  │ Remote   │                      │
-│   │ (Corp)   │  │ (BYOD)   │  │ (VPN)    │                      │
-│   └────┬─────┘  └────┬─────┘  └────┬─────┘                      │
-│        │             │             │                            │
-│   Controls:  PR.AA-01   (MFA)                                   │
-│              PR.DS-01   (Full Disk Encryption)                  │
-│              PR.AA-05   (Least Privilege / RBAC)                │
-│                                                                 │
-└────────────────────────┬────────────────────────────────────────┘
-                         │
-                    ┌────▼────┐
-                    │Firewall │  ← PR.IR-01 (Network Segmentation)
-                    │  / WAF  │    DE.CM-01 (Network Monitoring)
-                    └────┬────┘
-                         │
-┌────────────────────────▼───────────────────────────────────────┐
-│                                                                │
-│   ZONE 2: Internal Network (Corporate LAN)                     │
-│   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐         │
-│   │ App Server   │  │ File Server  │  │ Email Server │         │
-│   │ (M365)       │  │ (On-Prem)    │  │ (Exchange)   │         │
-│   └──────┬───────┘  └──────┬───────┘  └──────┬───────┘         │
-│          │                 │                 │                 │
-│   Controls:  PR.DS-02 (TLS 1.2+ in transit)                    │
-│              PR.PS-04 (Audit Logging → SIEM)                   │
-│              DE.CM-09 (Endpoint Monitoring / EDR)              │
-│              PR.PS-01 (CIS Baselines)                          │
-│                                                                │
-└────────────────────────┬───────────────────────────────────────┘
-                         │
-                    ┌────▼────┐
-                    │Firewall │  ← PR.IR-01 (Zone Boundary)
-                    │  Rules  │    PR.DS-02 (Encrypted Transit)
-                    └────┬────┘
-                         │
-┌────────────────────────▼───────────────────────────────────────┐
-│                                                                │
-│   ZONE 3: Cloud Environment (AWS)                              │
-│   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐         │
-│   │ S3 Storage   │  │ RDS Database │  │ CloudWatch   │         │
-│   │              │  │              │  │ (Logging)    │         │
-│   └──────────────┘  └──────────────┘  └──────────────┘         │
-│                                                                │
-│   Controls:  PR.DS-01 (AES-256 at rest / SSE-S3)               │
-│              PR.AA-01 (IAM policies / least privilege)         │
-│              DE.AE-02 (CloudTrail → SIEM correlation)          │
-│              RC.RP-03 (Backup integrity / S3 versioning)       │
-│                                                                │
-└────────────────────────┬───────────────────────────────────────┘
-                         │
-┌────────────────────────▼────────────────────────────────────────┐
-│                                                                 │
-│   ZONE 4: Security Operations (Management)                      │
-│   ┌──────────────┐  ┌──────────────┐                            │
-│   │ SIEM         │  │ Backup       │                            │
-│   │ (Centralized │  │ (Offsite /   │                            │
-│   │  Logging)    │  │  Immutable)  │                            │
-│   └──────────────┘  └──────────────┘                            │
-│                                                                 │
-│   Controls:  DE.AE-03 (Multi-source correlation)                │
-│              DE.CM-01 (Continuous monitoring)                   │
-│              RS.MA-01 (IRP triggers from SIEM alerts)           │
-│              RC.RP-01 (Recovery from verified backups)          │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+<img width="5025" height="2522" alt="Lucidchart DFD Build Guide" src="https://github.com/user-attachments/assets/5569c806-7f77-402c-af95-7b1cf6ae30a0" />
 
 ---
 
