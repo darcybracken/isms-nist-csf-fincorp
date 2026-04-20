@@ -65,8 +65,3 @@ This vault uses a consistent tagging taxonomy so any artifact can be retrieved i
 **Visual Audit:** Open the **Obsidian Graph View**. Look for clusters around the `#compliance/nist` tags to see how your policies interconnect.
 
 ---
-## Related Notes
-
-- [[NIST-CSF-2.0-Reference]]
-- [[Incident-Response-Playbook-Ransomware]]
-- [[Policy Review Cadence - 2026]]
