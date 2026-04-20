@@ -1,7 +1,7 @@
 ---
 title: Acceptable Use Policy
 policy_id: FC-POL-001
-author: D'Arcy Bracken
+author: Darcy 
 date: 2026-03-07
 version: "1.0"
 status: approved
@@ -118,8 +118,8 @@ The severity of the response is proportional to the violation and is determined 
 | Role | Responsibility |
 |------|---------------|
 | **All Users** | Read, understand, and comply with this policy |
-| **IT Department** | Implement technical controls that enforce this policy; respond to violations |
-| **CISO** | Approve policy; make risk-based exceptions; oversee compliance |
+| **IT Department** | Implement technical controls that enforce this policy, respond to violations |
+| **CISO** | Approve policy make risk-based exceptions; oversee compliance |
 | **HR** | Ensure policy is acknowledged during onboarding; support enforcement actions |
 | **Managers** | Ensure team members are aware of and comply with this policy |
 See 01_Governance/Roles/RACI-Matrix  for the full responsibility assignment matrix
@@ -176,5 +176,5 @@ Signature: _________________________ Date: _______________
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | 2026-03-07 | D'Arcy Bracken | Initial draft 
+| 1.0 | 2026-03-07 | Darcy  | Initial draft 
   
