@@ -46,13 +46,14 @@ To make this project realistic, all policies and controls are written for a fict
 
 | **Field**              | **Value**                                                |
 | ---------------------- | -------------------------------------------------------- |
-| Organization Name      | Wayne Financial Services (mock)                          |
+| Organization Name      | FinCorp (mock)                          |
 | Industry               | Financial Services                                       |
 | Size                   | 200 employees                                            |
 | Regulatory Environment | Subject to SOC 2, GLBA, and internal audit               |
 | Data Sensitivity       | PII, financial records, internal communications          |
 | IT Environment         | Hybrid (on-premises + cloud), Microsoft 365, AWS         |
 | Risk Appetite          | Low - conservative posture due to regulatory obligations |
+
 *This profile drives every policy decision in the vault. A healthcare company or a startup would make different choices even using the same NIST CSF framework. The mock org exists to demonstrate that controls must be tailored to context.*
 
 ---
@@ -89,24 +90,8 @@ Summarize outcomes: what was built, what gaps were found, what was improved. Dem
 ## Methodology
 This project follows a **Plan-Do-Check-Act (PDCA)** cycle, which is the standard continuous improvement model used in ISO 27001 and applicable to any ISMS:
 
-```
+<img width="1360" height="860" alt="Blank diagram" src="https://github.com/user-attachments/assets/d0f0cec0-ee3d-4513-a11d-0f6fd6f71b82" />
 
-┌──────────┐
-│   PLAN   │ ← Define scope, select framework, identify risks
-└────┬─────┘
-     │
-┌────▼─────┐
-│    DO    │ ← Write policies, map controls, build documentation
-└────┬─────┘
-     │
-┌────▼─────┐
-│  CHECK   │ ← Review for gaps, validate crosswalk, test IRP
-└────┬─────┘
-     │ 
-┌────▼─────┐
-│   ACT    │ ← Remediate gaps, update policies, document findings
-└──────────┘
 
-```
 
-This vault represents one full pass through the PDCA cycle.
+This represents one full pass through the PDCA cycle.
