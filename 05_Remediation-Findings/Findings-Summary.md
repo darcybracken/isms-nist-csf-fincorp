@@ -9,7 +9,7 @@ tags:
 ---
 ## Outcome
 
-This project produced a comprehensive security documentation package that demonstrates the design and documentation of an Information Security Management System aligned to NIST CSF 2.0. The package is structured for audit readability, searchability (via Obsidian tags and links), and continuous improvement (via the PDCA cycle).
+This project produced a comprehensive security documentation package that demonstrates the design and documentation of an Information Security Management System aligned to NIST CSF 2.0. The package is structured for audit readability, searchability (via Obsidian tags and links), and continuous improvement.
 
 ---
 ## What Was Built
@@ -81,15 +81,13 @@ An ISMS is not a binder on a shelf. It is a **system** - a connected set of docu
 
 | Artifact | Format | Location |
 |----------|--------|----------|
-| NIST Mapping Matrix | PNG (Lucidchart/Visio export) | `99_Attachments/Lab-002/NIST_Mapping_Table.png` |
-| Data Flow Architecture | PNG (Lucidchart/Visio export) | `99_Attachments/Lab-002/ISMS_Architecture.png` |
+| NIST Mapping Matrix | PNG (Lucidchart) | `99_Attachments/Lab-002/NIST_Mapping_Table.png` |
+| Data Flow Architecture | PNG (Lucidchart) | `99_Attachments/Lab-002/ISMS_Architecture.png` |
 | Knowledge Base Graph | PNG (Obsidian graph view screenshot) | `99_Attachments/Lab-002/Obsidian_Policy_Graph.png` |
-
-> *To create the graph view screenshot: Open Obsidian → Click the graph icon → Adjust filters to show all linked notes → Screenshot → Save to the attachments folder.*
 
 ---
 ## Conclusion
 
-This project demonstrates the end-to-end process of building an ISMS: from selecting a framework, through defining governance and risk appetite, to mapping controls, writing policies, designing architecture, and documenting findings. The resulting knowledge base is searchable, linked, version-controlled, and structured for audit presentation.
+This project showcases the comprehensive process of constructing an Information Security Management System (ISMS): from selecting a framework, establishing governance and risk appetite, mapping controls, drafting policies, designing architecture, and documenting findings. The resulting knowledge base is searchable, interconnected, version-controlled, and structured to facilitate audit presentation.
 
 The PDCA cycle does not end here. This documentation package is Version 1.0 - a foundation to be tested, refined, and improved.
