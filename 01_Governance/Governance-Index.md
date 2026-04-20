@@ -40,10 +40,10 @@ Meridian Financial Services adopts a **low risk appetite** for information secur
 ## Governance Documents
 | Document                     | NIST Category                    | Status        | Link                                            |
 | ---------------------------- | -------------------------------- | ------------- | ----------------------------------------------- |
-| Acceptable Use Policy (AUP)  | GV.PO (Policy)                   | #status/draft | [[Policies/Acceptable-Use-Policy]]              |
-| Incident Response Plan (IRP) | RS.RP (Response Planning)        | #status/draft | [[04_Incident-Response/Incident-Response-Plan]] |
-| RACI Matrix                  | GV.RR (Roles & Responsibilities) | #status/draft | [[01_Governance/Roles/RACI-Matrix]]                           |
-| Policy Review Cadence        | GV.PO-02                         | #status/draft | [[Policy Review Cadence - 2026]]                |
+| Acceptable Use Policy (AUP)  | GV.PO (Policy)                   | #status/draft |   Policies/Acceptable-Use-Policy                |
+| Incident Response Plan (IRP) | RS.RP (Response Planning)        | #status/draft |   04_Incident-Response/Incident-Response-Plan   |
+| RACI Matrix                  | GV.RR (Roles & Responsibilities) | #status/draft |   01_Governance/Roles/RACI-Matrix               | 
+| Policy Review Cadence        | GV.PO-02                         | #status/draft |   Policy Review Cadence - 2026                  |
 
 ---
 ## How Governance Connects to the Rest of the ISMS
@@ -73,17 +73,10 @@ Meridian Financial Services adopts a **low risk appetite** for information secur
 
 |Category|What It Covers|Where It Appears in This Vault|
 |---|---|---|
-|GV.OC - Organizational Context|Mission, stakeholders, legal requirements|[[Project-Overview]] (mock org profile)|
+|GV.OC - Organizational Context|Mission, stakeholders, legal requirements|Project-Overview (mock org profile)|
 |GV.RM - Risk Management Strategy|Risk appetite, tolerance, methodology|This document (risk appetite statement)|
-|GV.RR - Roles, Responsibilities, Authorities|Who does what|[[01_Governance/Roles/RACI-Matrix]]|
-|GV.PO - Policy|Cybersecurity policies exist and are maintained|[[Policies/Acceptable-Use-Policy]]|
+|GV.RR - Roles, Responsibilities, Authorities|Who does what| 01_Governance/Roles/RACI-Matrix|
+|GV.PO - Policy|Cybersecurity policies exist and are maintained|Policies/Acceptable-Use-Policy|
 |GV.SC - Supply Chain Risk Management|Third-party risk|Noted in crosswalk; simplified for this project|
 
 ---
-## Related Notes
-
-- [[02_Framework-Mapping/NIST-CSF-Master-Crosswalk]]
-
-- [[ISMS Documentation - Home]]
-
-- [[04_Incident-Response/IR-Index]]
