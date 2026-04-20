@@ -100,7 +100,7 @@ All company data must be handled according to its classification:
 ## 4. Enforcement
 ### 4.1 Monitoring
 
-FinCorp reserves the right to monitor, log, and audit all use of company IT resources. This includes network traffic, email communications, file access, and authentication events. Monitoring data is retained for a minimum of 90 days per the audit logging requirements (see [[02_Framework-Mapping/NIST-CSF-Master-Crosswalk]] - DE.AE).
+FinCorp reserves the right to monitor, log, and audit all use of company IT resources. This includes network traffic, email communications, file access, and authentication events. Monitoring data is retained for a minimum of 90 days per the audit logging requirements (see 02_Framework-Mapping/NIST-CSF-Master-Crosswalk - DE.AE).
 
 ### 4.2 Violations
 Violations of this policy may result in:
@@ -122,7 +122,7 @@ The severity of the response is proportional to the violation and is determined 
 | **CISO** | Approve policy; make risk-based exceptions; oversee compliance |
 | **HR** | Ensure policy is acknowledged during onboarding; support enforcement actions |
 | **Managers** | Ensure team members are aware of and comply with this policy |
-See [[01_Governance/Roles/RACI-Matrix]]  for the full responsibility assignment matrix
+See 01_Governance/Roles/RACI-Matrix for the full responsibility assignment matrix
 
 ---
 ## 6. Exceptions
@@ -147,7 +147,7 @@ This policy is reviewed **quarterly** and updated as needed based on:
 - Changes in technology or business operations
 - Results from the PDCA improvement cycle
 
-The review schedule is tracked in [[Policy Review Cadence - 2026]].
+The review schedule is tracked in Policy Review Cadence - 2026.
 
 **NIST CSF Alignment:** Review cadence supports **GV.PO-02** (policy for managing cybersecurity risks is reviewed, updated, communicated, and enforced).
 
@@ -179,12 +179,3 @@ Signature: _________________________ Date: _______________
 | 1.0 | 2026-03-07 | D'Arcy Bracken | Initial draft 
   
 ---
-## Related Notes
-
-- [[04_Incident-Response/Incident-Response-Plan]] - Referenced in Section 3.1 for incident reporting
-
-- [[01_Governance/Roles/RACI-Matrix]] - Referenced in Section 5 for responsibility assignments
-
-- [[02_Framework-Mapping/NIST-CSF-Master-Crosswalk]] - Full NIST CSF control mapping
-
-- [[Policy Review Cadence - 2026]] - Review schedule
