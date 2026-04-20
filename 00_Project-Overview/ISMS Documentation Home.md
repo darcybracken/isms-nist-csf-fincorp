@@ -15,13 +15,12 @@ The regulatory framework used is **NIST Cybersecurity Framework 2.0** (February 
 | Section                     | Purpose                                      | Entry Point                                        |
 | --------------------------- | -------------------------------------------- | -------------------------------------------------- |
 | 00 - Project Overview       | Objective, scope, phases, methodology        | *you are here*                                     |
-| 01 - Governance             | Policies, roles, risk appetite               | [[01_Governance/Governance-Index]]                 |
-| 02 - Framework Mapping      | NIST CSF 2.0 crosswalk and control table     | [[02_Framework-Mapping/NIST-CSF-Master-Crosswalk]] |
-| 03 - Architecture           | Data flow diagrams, control overlay          | [[Architecture-Index]]                             |
-| 04 - Incident Response      | IRP, ransomware playbook, response stages    | [[04_Incident-Response/IR-Index]]                  |
-| 05 - Remediation & Findings | Gap analysis, outcome summary                | [[Findings-Summary]]                               |
-| 06 - Templates              | Reusable templates for policies and tracking | [[Template-Index]]                                 |
-| 99 - Attachments            | Exported diagrams, screenshots, evidence     | `99_Attachments/Lab-002/`                          |
+| 01 - Governance             | Policies, roles, risk appetite               | 01_Governance/Governance-Index                     |
+| 02 - Framework Mapping      | NIST CSF 2.0 crosswalk and control table     | 02_Framework-Mapping/NIST-CSF-Master-Crosswalk     |
+| 03 - Architecture           | Data flow diagrams, control overlay          | Architecture-Index                                 |
+| 04 - Incident Response      | IRP, ransomware playbook, response stages    | 04_Incident-Response/IR-Index                      |
+| 05 - Remediation & Findings | Gap analysis, outcome summary                | Findings-Summary                                   |
+| 06 - Templates              | Reusable templates for policies and tracking | Template-Index                                     |
 
 ---
 ## Tagging System
